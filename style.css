@@ -1,0 +1,176 @@
+html {
+    background: #e3e3e3
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    /* padding: 40px; */
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+    
+}
+
+h1 {
+    font-size: 3em;
+    padding: 5px;
+    margin: 20px;
+    text-align: left;
+}
+
+h2 {
+    font-size: 2em;
+    /* padding: 5px; */
+    margin: 45px;
+}
+
+.introlabel {
+    margin-left: 0px;
+}
+
+.label1 {
+    margin-left: 70px;
+    margin-right: 90px;
+    margin-bottom: -20px;
+    margin-top: 30px;
+}
+
+h3 {
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+}
+
+
+ul {
+    list-style-type: none;
+  }
+
+
+p {
+    line-height: 1.4em;
+}
+
+#navbar {
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    color: white;
+    top: 0;
+    background: #242424;
+    font-size: 3em;
+    padding-right: 30px;
+    justify-content: space-between;
+}
+
+
+a:link { 
+    text-decoration: none; 
+}
+
+
+a:hover { 
+    text-decoration: lightslategrey; 
+}
+
+
+a:active { 
+    text-decoration: none; 
+}
+
+article {
+    /* background: #ccc; */
+    background-color: #f3f3f3;
+    padding: 40px;
+    margin: 50px;
+    flex: 1;
+    border: #242424;
+    border-radius: 1em;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+}
+
+.project{
+    background-color: #f3f3f3;
+    padding: 40px;
+    margin: 50px;
+    flex: 1;
+    color:#000;
+    border: #242424;
+    border-radius: 1em;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.project:hover{
+    transform: translate(0px, -30px);
+    border-color: darkslategrey;
+    box-shadow: rgba(0,0,0, 0.5) 0 0 20px;
+}
+
+.intro {
+    font-size:x-large;
+}
+
+section {
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+
+.line {
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 1700px;
+    box-shadow: rgba(0,0,0, 0.1) 0 0 20px;
+    border: #242424;
+    border-radius: 1em;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+    justify-self: left;
+}
+
+.avatar {
+    width: 450px;
+    border-color: #242424;
+    border-radius: 50%;
+    margin-left: 110px;
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.contacts {
+    margin-right: 60px;
+    list-style-type: none;
+    text-align: right;
+
+}
+
+.contacts li {
+    width: 40px;
+    display: inline-block;
+    padding: 20px 10px;
+    justify-content: left;
+}
+
+.contacts li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+
+.btn{
+    text-align: right;
+}
