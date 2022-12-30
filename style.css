@@ -94,7 +94,8 @@ article {
 }
 
 article:hover {
-    transform: translate(0px, -30px);
+    transform: translate(0px, -20px);
+    box-shadow: rgba(0,0,0, 0.5) 0 0 20px;
 }
 
 .project{
