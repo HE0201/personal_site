@@ -93,8 +93,21 @@ article {
 
 }
 
-article:hover {
-    transform: translate(0px, -10px);
+.creds {
+    background-color: #f3f3f3;
+    padding: 40px;
+    margin: 50px;
+    flex: 1;
+    border: #242424;
+    border-radius: 1em;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.creds:hover {
+    transform: translate(0px, -5px);
     box-shadow: rgba(0,0,0, 0.5) 0 0 20px;
 }
 
@@ -174,5 +187,6 @@ img {
     opacity: 0.5;
     transition: opacity ease-in-out 0.2s;
 }
+
 
 
